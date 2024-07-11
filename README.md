@@ -1,5 +1,5 @@
-# next-django-fastapi-fullstack-tutorial
-> This tutorial demonstrates a full stack application using Django, FastAPI and Next.js suitable for hosting in Docker-type containers.
+# nextjs-django-fastapi-fullstack-nextauth-tutorial
+> This tutorial extends the existing fullstack tutorial by adding [Next-Auth v5 authentication](https://authjs.dev/).
 
 ## Pre-requisite
 
@@ -15,4 +15,4 @@ docker-compose up -d
 
 ## Learn more
 
-You can read the [full step by step explanation and tutorial](https://damianhodgkiss.com/tutorials/fullstack-django-fastapi-nextjs/) if you wish to re-create it for learning purposes.
+You can read the [full step by step explanation and tutorial](https://damianhodgkiss.com/tutorials/fullstack-django-fastapi-nextjs-next-auth/) if you wish to re-create it for learning purposes.
