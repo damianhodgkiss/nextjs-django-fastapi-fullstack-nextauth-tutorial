@@ -26,9 +26,13 @@ fastapp = FastAPI(
 
 
 def init(app: FastAPI):
+    from users.routers import register_routers as register_user_routers
+
+    register_user_routers(app)
+
     @app.get("/health")
     def health_check():
-        return {'status': 'ok'}
+        return {"status": "ok"}
 
 
 init(fastapp)
